@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    font: normal 15pt Arial;
+}
+
+header {
+    text-align: center;
+    margin: 3%;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    padding: 15px;
+}
+
+section .nasc {
+    text-align: center;
+}
+
+#txt_idade {
+    border-radius: 5px;
+}
+
+section .sex {
+    text-align: center;
+    margin: 4%;
+}
+
+section .btn-verif {
+    text-align: center;
+    margin: 5%;
+}
+
+section .btn-verif button {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border: solid 1px #000;
+    color: #fff;
+    font-size: 15px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+section .btn-verif button:hover{
+    transition: .3s;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.404);
+}
+
+footer {
+    text-align: center;
+    margin: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    section .btn-verif button {
+        width: 80px;
+        height: 25px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 12pt;
+        margin: 5%;
+    }
+
+    section {
+        width: 100%;
+        padding: 8px;
+    }
+
+    section .btn-verif button {
+        width: 70px;
+        height: 20px;
+        font-size: 12px;
+    }
+}
